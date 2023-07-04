@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="" product-name="CodeQ.LostInTranslation.UiSyncButton" source-language="en" datatype="plaintext">
+		<body>
+			<trans-unit id="translate" xml:space="preserve">
+				<source>Translate</source>
+			</trans-unit>
+            <trans-unit id="translateDocument" xml:space="preserve">
+                <source>Translate document</source>
+            </trans-unit>
+            <trans-unit id="sourceLanguage" xml:space="preserve">
+                <source>Source language</source>
+            </trans-unit>
+            <trans-unit id="chooseLanguage" xml:space="preserve">
+                <source>Please choose a language…</source>
+            </trans-unit>
+            <trans-unit id="confirmDeletingOfCurrentContent" xml:space="preserve">
+                <source>I understand that the current content of this document will be deleted and replaced by the translated content from the chosen language</source>
+            </trans-unit>
+            <trans-unit id="noDocumentFoundInSourceLanguage" xml:space="preserve">
+                <source>No document found in selected language</source>
+            </trans-unit>
+            <trans-unit id="documentTranslatedSuccessfully" xml:space="preserve">
+                <source>Document translated successfully</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

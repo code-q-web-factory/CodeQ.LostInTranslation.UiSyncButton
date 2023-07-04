@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="" product-name="CodeQ.LostInTranslation.UiSyncButton" source-language="en" target-language="de" datatype="plaintext">
+		<body>
+			<trans-unit id="translate" xml:space="preserve">
+				<source>Translate</source>
+                <target>Übersetzen</target>
+			</trans-unit>
+            <trans-unit id="translateDocument" xml:space="preserve">
+                <source>Translate document</source>
+                <target>Dokument übersetzen</target>
+            </trans-unit>
+            <trans-unit id="sourceLanguage" xml:space="preserve">
+                <source>Source language</source>
+                <target>Quell-Sprache</target>
+            </trans-unit>
+            <trans-unit id="chooseLanguage" xml:space="preserve">
+                <source>Please choose a language…</source>
+                <target>Bitte wähle eine Quell-Sprache aus</target>
+            </trans-unit>
+            <trans-unit id="confirmDeletingOfCurrentContent" xml:space="preserve">
+                <source>I understand that the current content of this document will be deleted and replaced by the translated content from the chosen language</source>
+                <target>Mir ist bewusst, dass der Inhalt dieses Dokuments vollständig mit dem Inhalt aus der Quell-Sprache überschrieben wird</target>
+            </trans-unit>
+            <trans-unit id="noDocumentFoundInSourceLanguage" xml:space="preserve">
+                <source>No document found in selected language</source>
+                <target>Dieses Dokument existiert in der Quell-Sprache nicht</target>
+            </trans-unit>
+            <trans-unit id="documentTranslatedSuccessfully" xml:space="preserve">
+                <source>Document translated successfully</source>
+                <target>Dokument erfolgreich übersetzt</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

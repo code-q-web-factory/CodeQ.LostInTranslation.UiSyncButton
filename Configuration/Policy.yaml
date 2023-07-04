@@ -1,0 +1,10 @@
+privilegeTargets:
+  'Neos\Flow\Security\Authorization\Privilege\Method\MethodPrivilege':
+    'CodeQ.LostInTranslation.UiSyncButton:TranslationServiceController':
+      label: 'ContactController Methods'
+      matcher: 'method(CodeQ\LostInTranslation\UiSyncButton\Controller\TranslationServiceController->(index|translate)Action())'
+roles:
+  'Neos.Neos:AbstractEditor':
+    privileges:
+      - privilegeTarget: 'CodeQ.LostInTranslation.UiSyncButton:TranslationServiceController'
+        permission: GRANT

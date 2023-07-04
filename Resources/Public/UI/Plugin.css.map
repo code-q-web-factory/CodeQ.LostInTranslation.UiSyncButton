@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../Private/UI/src/Containers/SecondaryToolbar/SyncButton/style.module.css", "../../Private/UI/src/Containers/SecondaryToolbar/SyncModal/style.module.css"],
+  "sourcesContent": ["/*.secondaryToolbar__buttonLink {*/\n/*    position: relative;*/\n/*    display: inline-block;*/\n/*    height: var(--spacing-GoldenUnit);*/\n/*    line-height: var(--spacing-GoldenUnit);*/\n/*    min-width: var(--spacing-GoldenUnit);*/\n/*    padding: 0;*/\n/*    border: 0;*/\n/*    -webkit-font-smoothing: antialiased;*/\n/*    vertical-align: top;*/\n/*    width: var(--spacing-GoldenUnit);*/\n/*    color: var(--colors-ContrastBrightest);*/\n/*    text-align: center;*/\n/*    background: transparent;*/\n/*}*/\n\n/*.secondaryToolbar__buttonLink:focus {*/\n/*    outline: unset;*/\n/*}*/\n\na.secondaryToolbar__buttonLink:hover {\n    background: var(--colors-PrimaryBlue);\n}\n\n/*.secondaryToolbar__buttonLink--isDisabled {*/\n/*    opacity: .5;*/\n/*}*/\n", ".body {\n    padding: 16px;\n    width: 100%;\n}\n\n.select {\n    margin-bottom: 16px;\n}\n\n.select__label {\n    display: block;\n    margin-bottom: 8px;\n}\n\n.confirm__label {\n    max-width: none;\n    display: flex;\n}\n\n.foobar {\n    display: block;\n    margin-bottom: 8px;\n}\n"],
+  "mappings": "AAoBA,uFCpBA,8BAAA,aAKA,wCAIA,4DAKA,yDAKA",
+  "names": []
+}

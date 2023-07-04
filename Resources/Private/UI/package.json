@@ -1,0 +1,20 @@
+{
+    "description": "CodeQ.LostInTranslation.UiSyncButton",
+    "scripts": {
+        "build": "node build.js",
+        "watch": "node build.js --watch"
+    },
+    "main": "./src/index.js",
+    "dependencies": {
+        "@neos-project/neos-ui-extensibility": "8.3.0-beta3",
+        "esbuild": "^0.17.00",
+        "esbuild-plugin-lightningcss-modules": "^0.1.0",
+        "classnames" : "^2.3.2",
+        "react" : "^16.0.0",
+        "plow-js" : "^3.0.0",
+        "react-redux" : "^8.0.5"
+    },
+    "neos": {
+        "buildTargetDirectory": "../../Public/UI"
+    }
+}

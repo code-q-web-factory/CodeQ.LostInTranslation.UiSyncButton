@@ -1,0 +1,6 @@
+- name: 'CodeQ.LostInTranslation.UiSyncButton :: TranslationService'
+  uriPattern: 'codeq/translation-service/{@action}'
+  defaults:
+    '@package': 'CodeQ.LostInTranslation.UiSyncButton'
+    '@controller': 'TranslationService'
+    '@format': 'json'

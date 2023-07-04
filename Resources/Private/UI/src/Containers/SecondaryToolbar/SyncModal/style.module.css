@@ -1,0 +1,23 @@
+.body {
+    padding: 16px;
+    width: 100%;
+}
+
+.select {
+    margin-bottom: 16px;
+}
+
+.select__label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.confirm__label {
+    max-width: none;
+    display: flex;
+}
+
+.foobar {
+    display: block;
+    margin-bottom: 8px;
+}

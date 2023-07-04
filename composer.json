@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "codeq/lostintranslation-uisyncbutton",
+    "require": {
+        "sitegeist/lostintranslation": "*",
+        "neos/neos-ui" : "^7 || ^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeQ\\LostInTranslation\\UiSyncButton\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "CodeQ.LostInTranslation.UiSyncButton"
+        }
+    }
+}

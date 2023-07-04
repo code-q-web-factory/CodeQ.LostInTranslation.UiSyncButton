@@ -1,0 +1,27 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          'CodeQ.LostInTranslation.UiSyncButton':
+            resource: resource://CodeQ.LostInTranslation.UiSyncButton/Public/UI/Plugin.js
+        stylesheets:
+          'CodeQ.LostInTranslation.UiSyncButton':
+            resource: resource://CodeQ.LostInTranslation.UiSyncButton/Public/UI/Plugin.css
+    userInterface:
+      translation:
+        autoInclude:
+          'CodeQ.LostInTranslation.UiSyncButton': [ 'Main' ]
+  Flow:
+    mvc:
+      routes:
+        'CodeQ.LostInTranslation.UiSyncButton': true
+    security:
+      authentication:
+        providers:
+          'Neos.Neos:Backend':
+            requestPatterns:
+              'CodeQ.LostInTranslation.UiSyncButton:Controllers':
+                pattern: 'ControllerObjectName'
+                patternOptions:
+                  controllerObjectNamePattern: 'CodeQ\LostInTranslation\UiSyncButton\Controller\.*'
