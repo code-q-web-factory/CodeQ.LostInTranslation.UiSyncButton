@@ -30,7 +30,7 @@ export default class SyncButton extends PureComponent {
     isInTranslatableLanguage = () => {
         try {
             const {currentDocumentNodePath, languages} = this.props;
-            let currentLanguageDimension = currentDocumentNodePath.match(/(language=)[a-z]+;?/)[0];
+            let currentLanguageDimension = currentDocumentNodePath.match(/(language=)[a-zA-Z_]+;?/)[0];
             currentLanguageDimension = currentLanguageDimension.replace('language=', '').replace(';', '');
             return languages[currentLanguageDimension]?.options?.translationStrategy === 'once';
         } catch (e) {
